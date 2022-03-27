@@ -34,6 +34,7 @@ build/
 
 ### Kafka Scripts ###
 kafka_2.13-3.1.0
+Kafka.md
 elasticsearch
 kibana
 logstash

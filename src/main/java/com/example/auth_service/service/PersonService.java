@@ -6,6 +6,7 @@ import com.example.auth_service.model.Person;
 
 public interface PersonService {
 
-    void register(RegisterRequest registerRequest);
-    Person getPerson(String identificationNumber);
+    Person register(RegisterRequest registerRequest);
+    Person getPerson(Long id);
+    void delete(Long id);
 }
